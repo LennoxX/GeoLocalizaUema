@@ -67,7 +67,7 @@ public class MainActivity extends AppCompatActivity
         int id = item.getItemId();
 
         if (id == R.id.parada_letras) {
-           mapsActivity.teste();
+           mapsActivity.setMark(new Marcador("Parada Uema", Coordenadas.COORDENADA_PREDIO_LETRAS));
         }
 
         DrawerLayout drawer = findViewById(R.id.drawer_layout);
