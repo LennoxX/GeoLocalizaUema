@@ -21,4 +21,10 @@ public class MapsActivity extends AppCompatActivity  implements OnMapReadyCallba
         mMap.addMarker(new MarkerOptions().position(sydney).title("Marker in Sydney"));
         mMap.moveCamera(CameraUpdateFactory.newLatLng(sydney));
     }
+
+    public void teste(){
+        LatLng teste = new LatLng(-32 ,151);
+        mMap.addMarker(new MarkerOptions().position(teste).title("Marker in Sydney"));
+        mMap.moveCamera(CameraUpdateFactory.newLatLng(teste));
+    }
 }

@@ -32,6 +32,8 @@ public class MainActivity extends AppCompatActivity
 
     private GoogleMap mMap;
 
+    public MapsActivity mapsActivity = new MapsActivity();
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -50,7 +52,7 @@ public class MainActivity extends AppCompatActivity
         // ADICIONANDO REFERÊNCIA DO MAPS ACTIVITY
         FragmentManager fragmentManager = getSupportFragmentManager();
         SupportMapFragment supportMapFragment = (SupportMapFragment) fragmentManager.findFragmentById(R.id.map);
-        supportMapFragment.getMapAsync(new MapsActivity());
+        supportMapFragment.getMapAsync(mapsActivity);
     }
 
     @Override
@@ -70,7 +72,7 @@ public class MainActivity extends AppCompatActivity
         int id = item.getItemId();
 
         if (id == R.id.nav_home) {
-            // Handle the camera action
+            mapsActivity.teste();
         } else if (id == R.id.nav_gallery) {
 
         } else if (id == R.id.nav_slideshow) {
