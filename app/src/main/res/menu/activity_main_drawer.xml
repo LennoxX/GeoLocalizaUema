@@ -5,21 +5,53 @@
 
     <group android:checkableBehavior="single">
         <item
-            android:id="@+id/nav_home"
+            android:id="@+id/nav_paradas"
             android:icon="@drawable/ic_menu_camera"
-            android:title="@string/menu_home" />
+            android:title="@string/pontos_de_onibus">
+            <menu>
+
+                <item
+                    android:id="@+id/parada_letras"
+                    android:title="@string/predio_de_letras"/>
+                <item
+                    android:id="@+id/parada_biologia"
+                    android:title="@string/predio_de_biologia"/>
+                <item
+                    android:id="@+id/parada_escola"
+                    android:title="@string/escola_paulo_vi"/>
+                <item
+                    android:id="@+id/parada_uemanet"
+                    android:title="@string/uemanet"/>
+                <item
+                    android:id="@+id/parada_vet_ru"
+                    android:title="@string/vet_ru"/>
+                <item
+                    android:id="@+id/parada_ponto_final"
+                    android:title="@string/ponto_final"/>
+            </menu>
+        </item>
         <item
-            android:id="@+id/nav_gallery"
-            android:icon="@drawable/ic_menu_gallery"
-            android:title="@string/menu_gallery" />
-        <item
-            android:id="@+id/nav_slideshow"
-            android:icon="@drawable/ic_menu_slideshow"
-            android:title="@string/menu_slideshow" />
-        <item
-            android:id="@+id/nav_tools"
-            android:icon="@drawable/ic_menu_manage"
-            android:title="@string/menu_tools" />
+            android:id="@+id/nav_predios"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/predios">
+            <menu>
+
+                <item
+                    android:id="@+id/predio_letras"
+                    android:title="@string/predio_de_letras"/>
+                <item
+                    android:id="@+id/predio_biologia"
+                    android:title="@string/predio_de_biologia"/>
+
+                <item
+                    android:id="@+id/predio_veterinaria"
+                    android:title="@string/vet_ru"/>
+                <item
+                    android:id="@+id/perdio_cct"
+                    android:title="@string/ponto_final"/>
+            </menu>
+        </item>
+
     </group>
 
 </menu>

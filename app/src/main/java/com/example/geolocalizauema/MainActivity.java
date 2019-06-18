@@ -2,16 +2,10 @@ package com.example.geolocalizauema;
 
 import android.os.Bundle;
 
-import com.google.android.gms.maps.CameraUpdateFactory;
+import com.example.geolocalizauema.utils.Coordenadas;
+import com.example.geolocalizauema.utils.Marcador;
 import com.google.android.gms.maps.GoogleMap;
-import com.google.android.gms.maps.OnMapReadyCallback;
 import com.google.android.gms.maps.SupportMapFragment;
-import com.google.android.gms.maps.model.LatLng;
-import com.google.android.gms.maps.model.MarkerOptions;
-import com.google.android.material.floatingactionbutton.FloatingActionButton;
-import com.google.android.material.snackbar.Snackbar;
-
-import android.view.View;
 
 import androidx.core.view.GravityCompat;
 import androidx.appcompat.app.ActionBarDrawerToggle;
@@ -53,6 +47,7 @@ public class MainActivity extends AppCompatActivity
         FragmentManager fragmentManager = getSupportFragmentManager();
         SupportMapFragment supportMapFragment = (SupportMapFragment) fragmentManager.findFragmentById(R.id.map);
         supportMapFragment.getMapAsync(mapsActivity);
+
     }
 
     @Override
@@ -71,14 +66,8 @@ public class MainActivity extends AppCompatActivity
         // Handle navigation view item clicks here.
         int id = item.getItemId();
 
-        if (id == R.id.nav_home) {
-            mapsActivity.teste();
-        } else if (id == R.id.nav_gallery) {
-
-        } else if (id == R.id.nav_slideshow) {
-
-        } else if (id == R.id.nav_tools) {
-
+        if (id == R.id.parada_letras) {
+           mapsActivity.teste();
         }
 
         DrawerLayout drawer = findViewById(R.id.drawer_layout);

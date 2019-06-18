@@ -14,4 +14,12 @@
     <string name="menu_share">Share</string>
     <string name="menu_send">Send</string>
     <string name="title_activity_maps">Map</string>
+    <string name="pontos_de_onibus">Pontos de Ônibus</string>
+    <string name="predio_de_letras">Prédio de Letras</string>
+    <string name="predio_de_biologia">Prédio de Biologia</string>
+    <string name="escola_paulo_vi">Escola Paulo VI</string>
+    <string name="uemanet">UEMANET</string>
+    <string name="vet_ru">Veterinária / RU</string>
+    <string name="ponto_final">Ponto Final</string>
+    <string name="predios">Prédios</string>
 </resources>
