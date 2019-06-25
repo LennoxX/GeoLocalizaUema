@@ -23,6 +23,9 @@
                     android:id="@+id/parada_uemanet"
                     android:title="@string/uemanet"/>
                 <item
+                    android:id="@+id/parada_reitoria"
+                    android:title="@string/pr_reitoria_de_planejamento"/>
+                <item
                     android:id="@+id/parada_vet_ru"
                     android:title="@string/vet_ru"/>
                 <item

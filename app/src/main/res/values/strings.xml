@@ -2,8 +2,8 @@
     <string name="app_name">GeoLocalizaUema</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
-    <string name="nav_header_title">Android Studio</string>
-    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_title">GeoLocalizaUema</string>
+    <string name="nav_header_subtitle">Aplicativo de Localização da UEMA</string>
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Settings</string>
 
@@ -22,4 +22,5 @@
     <string name="vet_ru">Veterinária / RU</string>
     <string name="ponto_final">Ponto Final</string>
     <string name="predios">Prédios</string>
+    <string name="pr_reitoria_de_planejamento">Pró Reitoria de Planejamento</string>
 </resources>

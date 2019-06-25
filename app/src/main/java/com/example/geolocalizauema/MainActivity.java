@@ -66,10 +66,29 @@ public class MainActivity extends AppCompatActivity
         // Handle navigation view item clicks here.
         int id = item.getItemId();
 
-        if (id == R.id.parada_letras) {
-           mapsActivity.setMark(new Marcador("Parada Uema", Coordenadas.COORDENADA_PREDIO_LETRAS));
+        switch (id) {
+            case R.id.parada_letras:
+                mapsActivity.setMark(new Marcador("Primeira Parada", Coordenadas.COORDENADA_PARADA_1));
+                break;
+            case R.id.parada_biologia:
+                mapsActivity.setMark(new Marcador("Segunda Parada", Coordenadas.COORDENADA_PARADA_2));
+                break;
+            case R.id.parada_escola:
+                mapsActivity.setMark(new Marcador("Terceira Parada", Coordenadas.COORDENADA_PARADA_3));
+                break;
+            case R.id.parada_reitoria:
+                mapsActivity.setMark(new Marcador("Quarta Parada", Coordenadas.COORDENADA_PARADA_4));
+                break;
+            case R.id.parada_uemanet:
+                mapsActivity.setMark(new Marcador("Quinta Parada", Coordenadas.COORDENADA_PARADA_5));
+                break;
+            case R.id.parada_vet_ru:
+                mapsActivity.setMark(new Marcador("Sexta Parada", Coordenadas.COORDENADA_PARADA_6));
+                break;
+            case R.id.parada_ponto_final:
+                mapsActivity.setMark(new Marcador("Ponto Final", Coordenadas.COORDENADA_PARADA_FINAL));
+                break;
         }
-
         DrawerLayout drawer = findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
         return true;
