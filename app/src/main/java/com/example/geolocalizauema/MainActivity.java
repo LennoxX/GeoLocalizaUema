@@ -88,6 +88,32 @@ public class MainActivity extends AppCompatActivity
             case R.id.parada_ponto_final:
                 mapsActivity.setMark(new Marcador("Ponto Final", Coordenadas.COORDENADA_PARADA_FINAL));
                 break;
+            case R.id.predio_letras:
+                mapsActivity.setMark(new Marcador("Prédio de Letras", Coordenadas.COORDENADA_PREDIO_LETRAS));
+                break;
+            case R.id.predio_geografia:
+                mapsActivity.setMark(new Marcador("Prédio de Geografia", Coordenadas.COORDENADA_PREDIO_GEOGRAFIA));
+                break;
+            case R.id.predio_biologia:
+                mapsActivity.setMark(new Marcador("Prédio de Biologia", Coordenadas.COORDENADA_PREDIO_BIOLOGIA));
+                break;
+            case R.id.predio_cct:
+                mapsActivity.setMark(new Marcador("Prédio CCT", Coordenadas.COORDENADA_PREDIO_CCT));
+                break;
+            case R.id.predio_biblioteca:
+                mapsActivity.setMark(new Marcador("Biblioteca", Coordenadas.COORDENADA_PREDIO_BIBLIOTECA));
+                break;
+            case R.id.predio_restaurante:
+                mapsActivity.setMark(new Marcador("Restaurante Universitário", Coordenadas.COORDENADA_PREDIO_RESTAURANTE));
+                break;
+            case R.id.predio_prog:
+                mapsActivity.setMark(new Marcador("Pró-Reitoria de Grad.", Coordenadas.COORDENADA_PREDIO_PROG));
+                break;
+            case R.id.predio_proplan:
+                mapsActivity.setMark(new Marcador("Pró-Reitoria de Planej", Coordenadas.COORDENADA_PREDIO_PROPLAN));
+                break;
+
+
         }
         DrawerLayout drawer = findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);

@@ -23,4 +23,14 @@
     <string name="ponto_final">Ponto Final</string>
     <string name="predios">Prédios</string>
     <string name="pr_reitoria_de_planejamento">Pró Reitoria de Planejamento</string>
+    <string name="predio_de_matematica">Prédio de Matemática</string>
+    <string name="CCSA">CCSA</string>
+    <string name="predio_de_geografia">Prédio de Geografia</string>
+    <string name="predio_veterinaria">Prédio de Veterinária</string>
+    <string name="predio_de_Agronomia">Prédio de Agronomia</string>
+    <string name="predio_biblioteca">Biblioteca</string>
+    <string name="predio_restaurante">Restaurante Universitário</string>
+    <string name="predio_prog">Pró-Reitoria de Graduação</string>
+    <string name="predio_proplan">Pró-Reitoria de Planej.</string>
+    <string name="predio_cct">CCT</string>
 </resources>

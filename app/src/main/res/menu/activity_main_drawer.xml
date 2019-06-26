@@ -43,15 +43,39 @@
                     android:id="@+id/predio_letras"
                     android:title="@string/predio_de_letras"/>
                 <item
+                    android:id="@+id/predio_geografia"
+                    android:title="@string/predio_de_geografia"/>
+                <item
                     android:id="@+id/predio_biologia"
                     android:title="@string/predio_de_biologia"/>
+                <item
+                    android:id="@+id/predio_matematica"
+                    android:title="@string/predio_de_matematica"/>
+                <item
+                    android:id="@+id/predio_ccsa"
+                    android:title="@string/CCSA"/>
 
                 <item
                     android:id="@+id/predio_veterinaria"
-                    android:title="@string/vet_ru"/>
+                    android:title="@string/predio_veterinaria"/>
                 <item
-                    android:id="@+id/perdio_cct"
-                    android:title="@string/ponto_final"/>
+                    android:id="@+id/predio_agronomia"
+                    android:title="@string/predio_de_Agronomia"/>
+                <item
+                    android:id="@+id/predio_cct"
+                    android:title="@string/predio_cct"/>
+                <item
+                    android:id="@+id/predio_biblioteca"
+                    android:title="@string/predio_biblioteca"/>
+                <item
+                    android:id="@+id/predio_restaurante"
+                    android:title="@string/predio_restaurante"/>
+                <item
+                    android:id="@+id/predio_prog"
+                    android:title="@string/predio_prog"/>
+                <item
+                    android:id="@+id/predio_proplan"
+                    android:title="@string/predio_proplan"/>
             </menu>
         </item>
 
