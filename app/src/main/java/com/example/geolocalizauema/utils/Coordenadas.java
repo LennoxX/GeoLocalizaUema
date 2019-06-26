@@ -5,11 +5,11 @@ import com.google.android.gms.maps.model.LatLng;
 public class Coordenadas {
     public static final LatLng COORDENADA_PREDIO_LETRAS = new LatLng(-2.5754948, -44.2097314);
     public static final LatLng COORDENADA_PREDIO_BIOLOGIA = new LatLng(-2.5760338, -44.2088683);
-    public static final LatLng COORDENADA_PREDIO_MATEMATICA = new LatLng(-2.5799071, -44.2092598);
-    public static final LatLng COORDENADA_PREDIO_CCSA = new LatLng(-2.5774041, -44.2101518);
-    public static final LatLng COORDENADA_PREDIO_GEOGRAFIA = new LatLng(-2.5758548, -44.2089904);
+    public static final LatLng COORDENADA_PREDIO_MATEMATICA = new LatLng(-2.579867,-44.2088015);
+    public static final LatLng COORDENADA_PREDIO_CCSA = new LatLng(-2.5771925,-44.2098116);
+    public static final LatLng COORDENADA_PREDIO_GEOGRAFIA = new LatLng(-2.5750057,-44.2099172);
     public static final LatLng COORDENADA_PREDIO_VETERINARIA = new LatLng(-2.5832542, -44.2077996);
-    public static final LatLng COORDENADA_PREDIO_AGRONOMIA = new LatLng(-2.5832006, -44.2079981);
+    public static final LatLng COORDENADA_PREDIO_AGRONOMIA = new LatLng(-2.5826097,-44.209041);
     public static final LatLng COORDENADA_PREDIO_CCT = new LatLng(-2.5832437,-44.2101022);
     public static final LatLng COORDENADA_PREDIO_BIBLIOTECA = new LatLng(-2.5813591, -44.2083107);
     public static final LatLng COORDENADA_PREDIO_RESTAURANTE = new LatLng(-2.5818197, -44.2080202);

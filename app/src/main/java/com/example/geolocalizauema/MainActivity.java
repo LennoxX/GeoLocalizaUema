@@ -24,9 +24,7 @@ import androidx.fragment.app.FragmentManager;
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 
-    private GoogleMap mMap;
-
-    public MapsActivity mapsActivity = new MapsActivity();
+    private MapsActivity mapsActivity = new MapsActivity();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -98,7 +96,7 @@ public class MainActivity extends AppCompatActivity
                 mapsActivity.setMark(new Marcador("Prédio de Biologia", Coordenadas.COORDENADA_PREDIO_BIOLOGIA));
                 break;
             case R.id.predio_cct:
-                mapsActivity.setMark(new Marcador("Prédio CCT", Coordenadas.COORDENADA_PREDIO_CCT));
+                mapsActivity.setMark(new Marcador("Prédio do CCT", Coordenadas.COORDENADA_PREDIO_CCT));
                 break;
             case R.id.predio_biblioteca:
                 mapsActivity.setMark(new Marcador("Biblioteca", Coordenadas.COORDENADA_PREDIO_BIBLIOTECA));
@@ -112,8 +110,18 @@ public class MainActivity extends AppCompatActivity
             case R.id.predio_proplan:
                 mapsActivity.setMark(new Marcador("Pró-Reitoria de Planej", Coordenadas.COORDENADA_PREDIO_PROPLAN));
                 break;
-
-
+            case R.id.predio_veterinaria:
+                mapsActivity.setMark(new Marcador("Prédio de Veterinária", Coordenadas.COORDENADA_PREDIO_VETERINARIA));
+                break;
+            case R.id.predio_agronomia:
+                mapsActivity.setMark(new Marcador("Prédio de Agronomia", Coordenadas.COORDENADA_PREDIO_AGRONOMIA));
+                break;
+            case R.id.predio_ccsa:
+                mapsActivity.setMark(new Marcador("Prédio do CCSA", Coordenadas.COORDENADA_PREDIO_CCSA));
+                break;
+            case R.id.predio_matematica:
+                mapsActivity.setMark(new Marcador("Prédio de Matemática" ,Coordenadas.COORDENADA_PREDIO_MATEMATICA));
+                break;
         }
         DrawerLayout drawer = findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
