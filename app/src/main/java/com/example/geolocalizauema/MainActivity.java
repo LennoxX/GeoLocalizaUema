@@ -74,9 +74,6 @@ public class MainActivity extends AppCompatActivity
             case R.id.parada_escola:
                 mapsActivity.setMark(new Marcador("Terceira Parada", Coordenadas.COORDENADA_PARADA_3));
                 break;
-            case R.id.parada_reitoria:
-                mapsActivity.setMark(new Marcador("Quarta Parada", Coordenadas.COORDENADA_PARADA_4));
-                break;
             case R.id.parada_uemanet:
                 mapsActivity.setMark(new Marcador("Quinta Parada", Coordenadas.COORDENADA_PARADA_5));
                 break;
